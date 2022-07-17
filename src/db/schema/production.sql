@@ -21,7 +21,7 @@ VALUES
   ('Alec Quon', 'https://i.imgur.com/3tVgsra.jpg'),
   ('Viktor Jain', 'https://i.imgur.com/iHq8K8Z.jpg'),
   ('Lindsay Chu', 'https://i.imgur.com/nPywAp1.jpg'),
-  ('Samantha Stanic', 'https://i.imgur.com/okB9WKC.jpg');
+  ('Samantha Lillian', 'https://i.imgur.com/okB9WKC.jpg');
 
 INSERT INTO available_interviewers (day_id, interviewer_id)
 SELECT 1 as day_id, interviewers.interviewer_id FROM ( SELECT id AS interviewer_id FROM interviewers ORDER BY RANDOM() LIMIT 5 ) interviewers;
